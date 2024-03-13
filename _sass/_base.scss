@@ -2,7 +2,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: $text-color-secondary;
-  background: $smoky-white;
+  background: #2A92AA;
   font-size: 14px;
   padding: 30px;
   -webkit-font-smoothing: antialiased;
@@ -77,7 +77,7 @@ p {
 
   .avatar {
     //used for profile image
-    max-width: 100px;
+    max-width: 120px;
     margin-bottom: 15px;
     border: 0px solid #fff;
     border-radius: 100%;
@@ -264,11 +264,11 @@ p {
   }
   .level-bar {
     height: 12px;
-    background: $smoky-white;
+    background: #DADADA;
   }
   .level-bar-inner {
     height: 12px;
-    background: lighten($theme-color, 15%);
+    background: #292929;
   }
 }
 
